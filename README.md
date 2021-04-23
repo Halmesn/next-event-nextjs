@@ -39,7 +39,7 @@ All the data is dummy data because I want to focus on learning nextjs features.
 I learned a lot by doing this project:
 <br/>
 
-<ol>
+<ul>
   <li>-What is NextJS? What's the benefits of using it.</li>
   <li>-Why is just React not enough?</li>
   <li>-How to create NextJS projects from the ground up</li>
@@ -53,7 +53,7 @@ I learned a lot by doing this project:
   <li>-How to building fullstack apps with NextJS API routes</li>
   <li>-How to manage app-wide state with React context (in NextJS apps)</li>
   <li>-How to adding authentication to NextJS apps</li>
-</ol>
+</ul>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
