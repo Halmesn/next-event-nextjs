@@ -35,20 +35,23 @@
 This is a NextJs project called NextEvent, it's quite simple: you can select curtain event and see it's detail or you can browse all the events and filter special events by it's year and month.
 
 I learned a lot by doing this project:
+<br/>
 
-<p>-What is NextJS? What's the benefits of using it.</p>
-<p>-Why is just React not enough?</p>
-<p>-How to create NextJS projects from the ground up</p>
-<p>-How to work with NextJs routing</p>
-<p>-How to add dynamic routes and catch-all routes</p>
-<p>-How to implement different forms of page pre-rendering and server-side rendering using NextJs</p>
-<p>-How to work with data and adding data fetching + pre-fetching using NextJs</p>
-<p>-How to pre-generating dynamic and static pages using NextJs</p>
-<p>-How to adding optimizations like metadata to pages using NextJs</p>
-<p>-How to optimize images with the NextJS Image component</p>
-<p>-How to building fullstack apps with NextJS API routes</p>
-<p>-How to manage app-wide state with React context (in NextJS apps)</p>
-<p>-How to adding authentication to NextJS apps</p>
+<ol>
+  <li>-What is NextJS? What's the benefits of using it.</li>
+  <li>-Why is just React not enough?</li>
+  <li>-How to create NextJS projects from the ground up</li>
+  <li>-How to work with NextJs routing</li>
+  <li>-How to add dynamic routes and catch-all routes</li>
+  <li>-How to implement different forms of page pre-rendering and server-side rendering using NextJs</li>
+  <li>-How to work with data and adding data fetching + pre-fetching using NextJs</li>
+  <li>-How to pre-generating dynamic and static pages using NextJs</li>
+  <li>-How to adding optimizations like metadata to pages using NextJs</li>
+  <li>-How to optimize images with the NextJS Image component</li>
+  <li>-How to building fullstack apps with NextJS API routes</li>
+  <li>-How to manage app-wide state with React context (in NextJS apps)</li>
+  <li>-How to adding authentication to NextJS apps</li>
+</ol>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
