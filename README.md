@@ -34,6 +34,8 @@
 
 This is a NextJs project called NextEvent, it's quite simple: you can select curtain event and see it's detail or you can browse all the events and filter special events by it's year and month.
 
+All the data is dummy data because I want to focus on learning nextjs features.
+
 I learned a lot by doing this project:
 <br/>
 
