@@ -40,19 +40,18 @@ I learned a lot by doing this project:
 <br/>
 
 <ul>
-  <li>-What is NextJS? What's the benefits of using it.</li>
-  <li>-Why is just React not enough?</li>
-  <li>-How to create NextJS projects from the ground up</li>
-  <li>-How to work with NextJs routing</li>
-  <li>-How to add dynamic routes and catch-all routes</li>
-  <li>-How to implement different forms of page pre-rendering and server-side rendering using NextJs</li>
-  <li>-How to work with data and adding data fetching + pre-fetching using NextJs</li>
-  <li>-How to pre-generating dynamic and static pages using NextJs</li>
-  <li>-How to adding optimizations like metadata to pages using NextJs</li>
-  <li>-How to optimize images with the NextJS Image component</li>
-  <li>-How to building fullstack apps with NextJS API routes</li>
-  <li>-How to manage app-wide state with React context (in NextJS apps)</li>
-  <li>-How to adding authentication to NextJS apps</li>
+  <li>What is NextJS? What's the benefits of using it.</li>
+  <li>How to create NextJS projects from the ground up</li>
+  <li>How to work with NextJs routing</li>
+  <li>How to add dynamic routes and catch-all routes</li>
+  <li>How to implement different forms of page pre-rendering and server-side rendering using NextJs</li>
+  <li>How to work with data and adding data fetching + pre-fetching using NextJs</li>
+  <li>How to pre-generating dynamic and static pages using NextJs</li>
+  <li>How to adding optimizations like metadata to pages using NextJs</li>
+  <li>How to optimize images with the NextJS Image component</li>
+  <li>How to building fullstack apps with NextJS API routes</li>
+  <li>How to manage app-wide state with React context (in NextJS apps)</li>
+  <li>How to adding authentication to NextJS apps</li>
 </ul>
 
 <!-- MARKDOWN LINKS & IMAGES -->
