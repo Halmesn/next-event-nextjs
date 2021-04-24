@@ -4,6 +4,8 @@ import DateIcon from 'components/icons/DateIcon';
 import AddressIcon from 'components/icons/AddressIcon';
 import ArrowRightIcon from 'components/icons/ArrowRightIcon';
 
+import Image from 'next/image';
+
 export default function EventItem({ events }) {
   const renderedList = events.map((event) => {
     const { image, title, location, date, id } = event;
@@ -17,7 +19,7 @@ export default function EventItem({ events }) {
 
     return (
       <li key={id} className={styles.item}>
-        <img src={image} alt={title} />
+        <Image src={image} alt={title} width={240} height={160} />
         <div className={styles.content}>
           <div className={styles.summary}>
             <h2>{title}</h2>
