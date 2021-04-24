@@ -8,7 +8,7 @@
   <h3 align="center">NextEvent</h3>
 
   <p align="center">
-    A project I did when learning this <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">
+    A project I did when I was learning this <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">
     NextJs Course</a>    
     <br />
     <a href="https://next-event-alpha.vercel.app/"><strong>View Demo »</strong></a>
