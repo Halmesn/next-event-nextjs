@@ -1,6 +1,7 @@
 import EventSummary from 'components/event-detail/EventSummary';
 import EventContent from 'components/event-detail/EventContent';
 import EventLogistics from 'components/event-detail/EventLogistics';
+import Comments from 'components/input/Comments';
 
 import { getEventById, getFeaturedEvents } from 'api/NextEventsApi';
 
@@ -16,6 +17,7 @@ export default function EventDetail({ event }) {
       <EventContent>
         <p>{event.description}</p>
       </EventContent>
+      <Comments eventId={event.id} />
     </>
   );
 }
