@@ -3,6 +3,8 @@ import styles from './CommentList.module.css';
 function CommentList(props) {
   const { items } = props;
 
+  if (!items) return;
+
   return (
     <ul className={styles.comments}>
       {items.map((item) => (
