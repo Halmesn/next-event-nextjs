@@ -1,5 +1,6 @@
 import 'styles/globals.css';
 import Layout from 'components/layout/Layout';
+import GlobalContextProvider from 'store/GlobalContext';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
@@ -14,9 +15,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <GlobalContextProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </GlobalContextProvider>
     </>
   );
 }

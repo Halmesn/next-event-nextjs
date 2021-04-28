@@ -3,7 +3,7 @@ import styles from './CommentList.module.css';
 function CommentList(props) {
   const { items } = props;
 
-  if (!items) return;
+  if (!items) return <p>Loading...</p>;
 
   return (
     <ul className={styles.comments}>
