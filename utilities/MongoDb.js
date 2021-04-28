@@ -1,9 +1,9 @@
 import { MongoClient } from 'mongodb';
-require('dotenv').config();
 
 export const connectDatabase = async () => {
   const client = await MongoClient.connect(
-    `mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@nextevent.rtmkh.mongodb.net/events?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.USER_NAME}:${process.env.PASS_WORD}@nextevent.rtmkh.mongodb.net/events?retryWrites=true&w=majority`,
+    { useUnifiedTopology: true }
   );
 
   return client;
