@@ -1,11 +1,8 @@
 import { MongoClient } from 'mongodb';
-import { Credentials } from 'credentials';
-
-const { username, password } = Credentials.mongodbLogin;
 
 export const connectDatabase = async () => {
   const client = await MongoClient.connect(
-    `mongodb+srv://${username}:${password}@nextevent.rtmkh.mongodb.net/events?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@nextevent.rtmkh.mongodb.net/events?retryWrites=true&w=majority`
   );
 
   return client;
