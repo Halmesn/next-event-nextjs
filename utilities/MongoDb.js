@@ -1,10 +1,9 @@
 import { MongoClient } from 'mongodb';
 
 export const connectDatabase = async () => {
-  const client = await MongoClient.connect(
-    `mongodb+srv://${process.env.USER_NAME}:${process.env.PASS_WORD}@nextevent.rtmkh.mongodb.net/events?retryWrites=true&w=majority`,
-    { useUnifiedTopology: true }
-  );
+  const client = await MongoClient.connect(process.env.MONGODB_URI, {
+    useUnifiedTopology: true,
+  });
 
   return client;
 };
