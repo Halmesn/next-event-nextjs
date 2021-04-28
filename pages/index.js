@@ -1,7 +1,7 @@
 import EventList from 'components/events/EventList';
 import EventItem from 'components/events/EventItem';
 import NewsletterRegistration from 'components/input/NewsletterRegistration';
-import { getFeaturedEvents } from 'api/NextEventsApi';
+import { getFeaturedEvents } from 'utilities/NextEvents';
 
 export default function Home({ featuredEvents }) {
   return (

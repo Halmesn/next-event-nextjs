@@ -1,4 +1,4 @@
-import { getFilteredEvents } from 'api/NextEventsApi';
+import { getFilteredEvents } from 'utilities/NextEvents';
 import EventList from 'components/events/EventList';
 import EventItem from 'components/events/EventItem';
 import ResultsTitle from 'components/events/ResultsTitle';

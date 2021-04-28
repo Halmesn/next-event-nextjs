@@ -1,33 +1,33 @@
-import fs from 'fs';
-import path from 'path';
+import { connectDatabase, insertDocument } from 'utilities/MongoDb';
 
-function getLocalData(fileName) {
-  const filePath = path.join(process.cwd(), 'data', fileName);
-  const fileData = fs.readFileSync(filePath);
-  const data = JSON.parse(fileData);
-  return { data, filePath };
-}
-
-function handler(req, res) {
-  const { data, filePath } = getLocalData('newsletter.json');
+async function handler(req, res) {
   const email = req.body.email;
+
+  let client;
+
+  try {
+    client = await connectDatabase();
+  } catch (error) {
+    res.status(500).json({ message: 'Connection to database failed' });
+    return;
+  }
 
   if (req.method === 'POST') {
     if (!email || !email.includes('@')) {
       res.status(422).json({ error: 'Invalid email address' });
+      client.close();
       return;
     }
-    const newRegisteredUser = {
-      id: new Date().toISOString(),
-      email,
-    };
 
-    data.push(newRegisteredUser);
-    fs.writeFileSync(filePath, JSON.stringify(data));
-    res
-      .status(201)
-      .json({ message: 'Successfully signed up!', data: newRegisteredUser });
+    try {
+      await insertDocument('newsletter', client, { email });
+      res.status(201).json({ message: 'Successfully signed up!' });
+    } catch (error) {
+      res.status(500).json({ error: 'Inserting data failed' });
+    }
   }
+
+  client.close();
 }
 
 export default handler;

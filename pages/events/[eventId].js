@@ -3,7 +3,7 @@ import EventContent from 'components/event-detail/EventContent';
 import EventLogistics from 'components/event-detail/EventLogistics';
 import Comments from 'components/input/Comments';
 
-import { getEventById, getFeaturedEvents } from 'api/NextEventsApi';
+import { getEventById, getFeaturedEvents } from 'utilities/NextEvents';
 
 export default function EventDetail({ event }) {
   if (!event) {

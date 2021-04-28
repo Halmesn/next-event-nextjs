@@ -2,7 +2,7 @@ import EventList from 'components/events/EventList';
 import EventItem from 'components/events/EventItem';
 import EventSearch from 'components/events/EventSearch';
 
-import { getAllEvents } from 'api/NextEventsApi';
+import { getAllEvents } from 'utilities/NextEvents';
 
 export default function AllEvents({ allEvents }) {
   if (!allEvents) {
