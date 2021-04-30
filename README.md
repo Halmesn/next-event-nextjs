@@ -25,8 +25,6 @@
 This project serves the purpose of future reference.
 (In other words, if I forget how to implement certain feature in the future I can take a look here!)
 
-**All the data is dummy data because I want to focus on learning nextjs features.**
-
 I learned a lot by doing this project:
 <br/>
 
