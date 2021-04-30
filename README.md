@@ -22,7 +22,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://next-event-alpha.vercel.app/)
 
-This is a NextJs project called NextEvent, it's quite simple: you can select curtain event and see it's detail or you can browse all the events and filter special events by it's year and month.
+This project serves the purpose of future reference.
+(In other words, if I forget how to implement certain feature in the future I can take a look here!)
 
 **All the data is dummy data because I want to focus on learning nextjs features.**
 
